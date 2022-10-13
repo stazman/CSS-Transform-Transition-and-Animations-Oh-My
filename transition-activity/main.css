@@ -11,6 +11,14 @@ body  {
   overflow: hidden;
 }
 
+article > div {
+  /* display: none; */
+  transform: translate(50px, 200px);
+  font-size: 10px;
+  width: 75%;
+  color: white;
+}
+
 img {
   width: 80%;
 }
@@ -26,4 +34,9 @@ button {
 
 button:hover {
   background-color: cornflowerblue;
+}
+
+img:hover {
+
+
 }
